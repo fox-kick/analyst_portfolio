@@ -1,0 +1,60 @@
+26:40</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<TtlIntrBkSttlmAmt Ccy="EUR">1.50</TtlIntrBkSttlmAmt>
+			<IntrBkSttlmDt>2021-10-28</IntrBkSttlmDt>
+			<SttlmInf>
+				<SttlmMtd>CLRG</SttlmMtd>
+			</SttlmInf>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>SEPA</Cd>
+				</SvcLvl>
+				<LclInstrm>
+					<Cd>INST</Cd>
+				</LclInstrm>
+			</PmtTpInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<EndToEndId>XXXXXXXXXXXX</EndToEndId>
+				<TxId>TR014374t000001</TxId>
+			</PmtId>
+			<IntrBkSttlmAmt Ccy="EUR">1.50</IntrBkSttlmAmt>
+			<ChrgBr>SLEV</ChrgBr>
+			<Dbtr>
+				<Nm>Erykah</Nm>
+				<PstlAdr>
+					<AdrTp>ADDR</AdrTp>
+					<StrtNm>street</StrtNm>
+					<BldgNb>1</BldgNb>
+					<PstCd>9874563</PstCd>
+					<TwnNm>New York</TwnNm>
+					<Ctry>US</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>LVXXXXXXXXXXXXXXXXY</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>TESTXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtrAgt>
+				<FinInstnId>
+					<BIC>TESTXXX</BIC>
+				</FinInstnId>
+			</CdtrAgt>
+			<Cdtr>
+				<Nm>Harry Potter</Nm>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<IBAN>FRXXXXXXXXXXXXXXXXX</IBAN>
+				</Id>
+			</CdtrAcct>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>
