@@ -15,7 +15,7 @@ IMPLEMENTATION GUIDELINES](https://www.europeanpaymentscouncil.eu/sites/default/
 |--|---|
 |PACS.008|payment(s) send from originator to beneficiary bank in XML file.|
 |PACS.002|Status report - can be positive or negative (RJCT or ACCP) in XML file. Sends beneficiary bank to originator in XML file. This status report is in pre-settlement phase.|
-|PACS.004|Form of a return the payment (return based on un-processable PACS.008 payment). Sends beneficiary bank to originator in XML file. Also use for accpetation of recalls.|
+|PACS.004|Form of a return the payment (return based on un-processable PACS.008 payment). Sends beneficiary bank to originator in XML file. Also use for accpetation of recalls. [example](pacs004_example.xml)|
 |CAMT.056| Recall in XML file.|
 |CAMT.029|Negative answers to incoming recalls|
 |CAMT.027|Claim non-receipt. SCT Inquiry. This message is sent by originator (originator bank), in case that beneficiary has not received a payment.|
