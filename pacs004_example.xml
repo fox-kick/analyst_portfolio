@@ -1,0 +1,78 @@
+?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.02">
+<PmtRtr>
+    <GrpHdr>
+        <MsgId>PositiveResponseID</MsgId>
+        <CreDtTm>2021-03-23T09:18:57</CreDtTm>
+        <NbOfTxs>1</NbOfTxs>
+        <TtlRtrdIntrBkSttlmAmt Ccy="EUR">1</TtlRtrdIntrBkSttlmAmt>
+        <IntrBkSttlmDt>2021-03-23</IntrBkSttlmDt>
+        <SttlmInf>
+            <SttlmMtd>CLRG</SttlmMtd>
+            <ClrSys>
+                <Prtry>ST2</Prtry>
+            </ClrSys>
+        </SttlmInf>
+    </GrpHdr>
+    <TxInf>
+        <RtrId>mask2</RtrId>
+        <OrgnlGrpInf>
+            <OrgnlMsgId>SCTXXXX00000000000000000</OrgnlMsgId>
+            <OrgnlMsgNmId>pacs.008.001.02</OrgnlMsgNmId>
+        </OrgnlGrpInf>
+        <OrgnlEndToEndId>NOT PROVIDED</OrgnlEndToEndId>
+        <OrgnlTxId>31630</OrgnlTxId>
+        <OrgnlIntrBkSttlmAmt Ccy="EUR">1</OrgnlIntrBkSttlmAmt>
+        <RtrdIntrBkSttlmAmt Ccy="EUR">1</RtrdIntrBkSttlmAmt>
+        <RtrRsnInf>
+            <Orgtr>
+                <Id>
+                    <OrgId>
+                        <BICOrBEI>BTRLRO22</BICOrBEI>
+                    </OrgId>
+                </Id>
+            </Orgtr>
+            <Rsn>
+                <Cd>AC01</Cd>
+            </Rsn>
+        </RtrRsnInf>
+        <OrgnlTxRef>
+            <IntrBkSttlmDt>2021-03-23</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+            </SttlmInf>
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+            </PmtTpInf>
+            <Dbtr>
+                <Nm>John Doe</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>ROXXXXXXXXXXXXXXXXXX</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BIC>XXXXXX</BIC>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BIC>INGBXXXXX</BIC>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>Bruno</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>ROXXXXXXXXXXXXXXXX</IBAN>
+                </Id>
+            </CdtrAcct>
+        </OrgnlTxRef>
+    </TxInf>
+</PmtRtr>
+</Document>
