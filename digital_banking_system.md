@@ -1,4 +1,4 @@
-# anet_portfolio
+# analyst_portfolio
 
 # Digital banking system - SEPA payments
 ISO 20022, the International Organisation for Standardisation, have used XML as the international standard format for their payment messages.
@@ -25,13 +25,11 @@ IMPLEMENTATION GUIDELINES](https://www.europeanpaymentscouncil.eu/sites/default/
 
 Origbank - bank of the originator, Benbank - bank of the beneficiary
 
-[Sequence diagram](http://plantuml.com/sequence-diagram)
-
 1. Originator sends payment in pacs.008 XML file
 2. If XML file is correct/structured as should be/have all mandatory elements then is accepted by the beneficiary bank
 3. Beneficiary bank can accept this payment and send status report (response) as pacs.002 with ACCEPTED code
 4. Beneficiary bank can not accept this payment and send a status report (response) as pacs.002 with REJECTED code
-
+![Sequence diagram - high-level communication](http://www.plantuml.com/plantuml/png/ZP5DIyD048Rl-ojUyD8AbMWLfGUfBTPB4Qa7pzlDDAxTxCJTYQL8_xlDOlfH49oGmywyppE76KRHGUhIASDU0ZjmiCLS--MkCIUVtge8N5UOaT7EWHVWMWgsla2broLvKS2EHgzttv83HF9vc-h4BZgLDl4Yo-ww2aYn5cdv0SxnAbhgY40L1m7xrh33hnAkdU25enNxHKtOhQ60FxsjPAKZj35K2UNepEY3Z52UZEGYuPaAlLUg_mazorwQAlbyhff_Mt5fVQM3BX7fioPl2DyAU0Y1LsDs771sdJMV0gPsGLFhQSGXft0wVMgkCT9csPp5vx_ZyNWoURnHcyDDxI6RHKUkBEltBnTDzrIJPSRSQk1Ov5dem69ITkIsy94ZzV7sReKKDcf8FgzBzmC0)
 ```plantuml
 @startuml
 control origbank
@@ -67,7 +65,9 @@ skinparam note {
 @enduml
 ```
 
-# Recall process in digitan banking system SEPA only (between two banks (bank1 and bank2))
+# Recall process in digitan banking system SEPA only (between two banks (bank1 and bank2)
+
+![Recall process](http://www.plantuml.com/plantuml/png/RP713jem38RlUGfBky0aK2cmQHmcHZLsGTC4atREKjD5f7QNE4neujr7Ma1qggCSuj__vrXU1z5UOksKOHBF3dvgEirwhrofodDiO8z6EmTy18vIiQKA6dsfaKG1T4QOJ3vsfXKSaCh1WhjUQ3Bej5WcyFWxOX0O6LtBD5k-6pyS-HCvMy5RE8YM6C1Zmrw02SmGfT4cJBCiRodQ2NpZOCMUCHdT9MK7w7kKw6aKncd4Zeib5D_34xXeWUW2mbUiT8yu20piOlfQ8bewOn2RR4oFIVCFVZw6DbeqbIhTMuIJfKPxNKD8Ov51-Ai0FddFVmfsxE7D8aj70Upi4NUMSCE-HF-_-YLjRwFDAQsHohjS5DljvwMwldPwh3qrwh6oR3wV7LEsZqcACUyrG1z4BFX2CMtjnjtCFKQN__7B2YgugZLI6Mlt3m00)
 
 ```plantuml
 @startuml
