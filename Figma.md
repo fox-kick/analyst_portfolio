@@ -4,6 +4,8 @@
 
 2. Books list with genre and DELETE + EDIT button
 3. Detail of the book
+4. Profile page + MY ACTIVITY link
+5. My Activity page
 
 
 # 1. Sing up/Log In page with buttons
@@ -16,6 +18,10 @@
 # 3. Book detail
 ![Book detail](https://github.com/pomelka/analyst_portfolio/blob/main/detailbook.png)
 
+# 4. Profile + link to the MY ACTIVITY in prototyping
+![My profile](https://github.com/fox-kick/analyst_portfolio/blob/main/my_profile_screen.png)
+# 5. My Activity page in prototyping
+![My activity](https://github.com/fox-kick/analyst_portfolio/blob/main/my_activity_screen.png)
 ## Best course and free source media for designing
 WESIDE USING UDEMY.COM
 www.unsplash.com
