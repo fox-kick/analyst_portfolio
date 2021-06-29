@@ -1,5 +1,3 @@
-# anet_portfolio
-
 # Digital banking system - SEPA payments
 ISO 20022, the International Organisation for Standardisation, have used XML as the international standard format for their payment messages.
 
